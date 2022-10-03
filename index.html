@@ -1,0 +1,434 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <!-- <link href="css/style.css" rel="stylesheet" /> -->
+    <link href="/style.css" rel="stylesheet" />
+    <!-- CSS only -->
+    <link href="css/bootstrap.min.css" rel="stylesheet" />
+    <link rel="shortcut icon" href="/img/favicon.ico" />
+    <link href="css/fontello.css" rel="stylesheet" />
+    <title>Ыыыы^4</title>
+  </head>
+  <style>
+    body {
+      background: url(/img/back.jpg);
+    }
+
+    .ssilki,
+    form,
+    table {
+      background-color: bisque;
+    }
+  </style>
+  <body>
+    <div class="container-fluid">
+      <div class="row">
+        <div class="col-12 float-md-none text-center bg-black text-warning">
+          <header>
+            <div class="container">
+              <a class="float-start" href="/" tabindex="1"
+                ><img alt="..." id="logo" src="/img/logo.png" />
+              </a>
+            </div>
+            <h1 class="float-end float-lg-none pt-3">Сайт для вебы4</h1>
+          </header>
+        </div>
+      </div>
+    </div>
+    <nav>
+      <div class="container text-center">
+        <div class="row mt-2 mb-2">
+          <div class="col-lg-3 bg-danger p-1 m-1">
+            <a href="#" tabindex="2">Эта страница</a>
+          </div>
+          <div class="col-lg-1">
+            <a href=""></a>
+          </div>
+          <div class="col-lg-3 bg-danger p-1 m-1">
+            <a tabindex="3" href="#form">Форма</a>
+          </div>
+          <div class="col-lg-1">
+            <a href=""></a>
+          </div>
+          <div class="col-lg-3 bg-danger p-1 m-1">
+            <a tabindex="4" href="#footer">Футер</a>
+          </div>
+        </div>
+      </div>
+    </nav>
+    <div class="container">
+      <div class="row">
+        <div class="col-12 col-lg-12">
+          <div class="ssilki">
+            <h2 tabindex="5">Ссылки:</h2>
+            <ol>
+              <li>
+                <a tabindex="-1" href="http://example.com" target="_blank"
+                  >абсолютную гиперссылку на главную страницу сайта
+                  example.com</a
+                >
+              </li>
+              <li>
+                <a tabindex="-1" href="https://example.com" target="_blank"
+                  >абсолютную на главную сайта example.com в протоколе https</a
+                >
+              </li>
+              <li>
+                <a tabindex="-1" href="ftp://tavalik.ru" target="_blank"
+                  >ссылку на файл на сервере FTP без авторизации</a
+                >
+              </li>
+              <li>
+                <a
+                  tabindex="-1"
+                  href="ftp://qoqo22:qwer1234@tavalik.ru/Temp/file2.txt"
+                  target="_blank"
+                  >ссылку на файл на сервере FTP с авторизацией;</a
+                >
+              </li>
+              <li>
+                <a
+                  tabindex="-1"
+                  href="https://ru.wikipedia.org/wiki/%D0%A2%D0%B5%D0%BA%D1%81%D1%82#Стили_и_типы_текста"
+                  target="_blank"
+                  >ссылку на фрагмент страницы некоторого сайта;</a
+                >
+              </li>
+              <li>
+                <a tabindex="-1" href="/index.html#some" target="_blank"
+                  >ссылку на фрагмент текущей страницы</a
+                >
+              </li>
+              <li>
+                <a
+                  tabindex="-1"
+                  href="https://e.mail.ru/inbox/?back=1&afterReload=1"
+                  target="_blank"
+                  >ссылку с двумя параметрами в URL</a
+                >
+              </li>
+
+              <li>
+                Список ссылок основной навигации сайта с подписями title
+                <ul>
+                  <li>
+                    <a
+                      tabindex="-1"
+                      href="https://www.youtube.com/"
+                      target="_blank"
+                      title="Home Youtube"
+                      >Home Youtube</a
+                    >
+                  </li>
+                  <li>
+                    <a
+                      tabindex="-1"
+                      href="https://www.youtube.com/feed/explore"
+                      target="_blank"
+                      title="Explore Youtube"
+                      >Explore Youtube</a
+                    >
+                  </li>
+                  <li>
+                    <a
+                      tabindex="-1"
+                      href="https://www.youtube.com/feed/subscriptions"
+                      target="_blank"
+                      title="Subscriptions Youtube"
+                      >Subscriptions Youtube</a
+                    >
+                  </li>
+                </ul>
+              </li>
+              <li>
+                <a tabindex="-1" title="Можно тыкнуть и ничего"
+                  >ссылку без href</a
+                >
+              </li>
+              <li>
+                <a tabindex="-1" href="#">ссылку с пустым href</a>
+              </li>
+              <li>
+                <a
+                  tabindex="-1"
+                  href="https://translate.google.com/?hl=ru"
+                  rel="nofollow"
+                  target="_blank"
+                >
+                  ссылку, по которой запрещен переход поисковикам</a
+                >
+              </li>
+              <!--noindex-->
+              <li>
+                <a
+                  tabindex="-1"
+                  href="https://translate.google.com/?hl=ru"
+                  target="_blank"
+                >
+                  запрещенную для индексации поисковиками
+                </a>
+              </li>
+              <!--/noindex-->
+              <li>
+                Lorem ipsum dolor
+                <a tabindex="-1" href="https://youtube.com" target="_blank"
+                  >sit amet consectetur
+                </a>
+                adipisicing elit. Minus eum accusamus ad ducimus veniam soluta
+                dignissimos placeat blanditiis tenetur maxime.
+              </li>
+              <li>
+                <br />
+                <a tabindex="-1"
+                  ><img
+                    src="https://upload.wikimedia.org/wikipedia/commons/thumb/6/6a/Mona_Lisa.jpg/400px-Mona_Lisa.jpg"
+                    alt="Здесь могла быть ваша картинка"
+                    width="200"
+                    height="250"
+                  />
+                </a>
+              </li>
+              <li>
+                <br />
+                <img
+                  src="https://esadigital.ru/upload/iblock/b1f/b1f045401524fccbd857abb3ad438efa.jpg"
+                  alt="Здесь могла быть ваша картинка:P"
+                  width="300"
+                  height="300"
+                  usemap="#slozhna"
+                />
+                <map name="slozhna">
+                  <area
+                    tabindex="-1"
+                    shape="rect"
+                    coords="15,75,145,199"
+                    href="https://ru.wikipedia.org/wiki/RGB"
+                    alt="инфа о RGB"
+                  />
+                  <area
+                    tabindex="-1"
+                    shape="circle"
+                    coords="216,141,67"
+                    href="https://ru.wikipedia.org/wiki/CMYK"
+                    alt="инфа о CMYK"
+                  />
+                </map>
+              </li>
+              <li>
+                <a tabindex="-1" href="news">
+                  относительную на страницу в текущем каталоге (Например: для
+                  https://qqq.com/somehere/news)</a
+                >
+              </li>
+              <li>
+                <a tabindex="-1" href="about/12345">
+                  относительную на страницу в каталоге about (Например: для
+                  https://qqq.com/somehere/about/12345)</a
+                >
+              </li>
+              <li>
+                <a tabindex="-1" href="../about">
+                  относительную на страницу в каталоге уровнем выше текущего
+                  (Например: для https://qqq.com/somehere/about/12345</a
+                >
+              </li>
+              <li>
+                <a tabindex="-1" href="../../123">
+                  относительную на страницу в каталоге двумя уровнями выше;
+                  (Например: для https://qqq.com/somehere/heretext/123</a
+                >
+              </li>
+              <li>
+                <a tabindex="-1" href="/"> сокращенную на главную</a>
+              </li>
+              <li>
+                <a tabindex="-1" href="somehere/news">
+                  сокращенную ссылку на внутреннюю (Например: для
+                  https://qqq.com/somehere/news)</a
+                >
+              </li>
+            </ol>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div class="d-flex flex-column">
+      <div class="container order-sm-first order-last">
+        <h2 tabindex="6">Таблица:</h2>
+        <table>
+          <tbody>
+            <tr>
+              <th>Колонка 1</th>
+              <th>Колонка 2</th>
+              <th>Колонка 3</th>
+              <th>Колонка 4</th>
+              <th>Колонка 5</th>
+            </tr>
+            <tr>
+              <td colspan="5">5 ячеек вместе</td>
+            </tr>
+            <tr>
+              <th>1</th>
+              <th>2</th>
+              <th>3</th>
+              <th>4</th>
+              <th>5</th>
+            </tr>
+            <tr>
+              <td colspan="3">3 ячейки вместе</td>
+              <th>11</th>
+              <th>12</th>
+            </tr>
+            <tr>
+              <th>10</th>
+              <th>6</th>
+              <th>7</th>
+              <th>8</th>
+              <th>9</th>
+            </tr>
+          </tbody>
+        </table>
+      </div>
+      <div class="container">
+        <h2 tabindex="7">Формы:</h2>
+        <form id="form" action="/" method="POST">
+          <label>
+            Имя:
+            <br />
+            <input required name="name" tabindex="8" placeholder="Ваше имя" />
+          </label>
+          <br />
+          <label>
+            e-mail:
+            <br />
+            <input
+              tabindex="9"
+              required
+              name="mail"
+              type="email"
+              placeholder="Введите вашу почту"
+            />
+          </label>
+          <br />
+          <label>
+            Дата рождения:
+            <br />
+            <input
+              tabindex="10"
+              name="field-date"
+              value="2019-08-13"
+              type="date"
+            />
+          </label>
+          <br />
+          <label>
+            Ваш пол:
+            <br />
+            <input
+              tabindex="11"
+              type="radio"
+              name="radio-group-1"
+              value="Значение1"
+              checked
+            />
+            Мужской
+          </label>
+          <label>
+            <input
+              tabindex="12"
+              type="radio"
+              name="radio-group-1"
+              value="Значение2"
+            />
+            Женский
+          </label>
+          <label>
+            <input
+              tabindex="13"
+              type="radio"
+              name="radio-group-1"
+              value="Значение2"
+            />
+            Ламинат
+          </label>
+          <br />
+          <label>
+            Количество конечностей:
+            <br />
+            <input
+              tabindex="14"
+              type="radio"
+              name="radio-group-2"
+              value="Значение1"
+              checked
+            />
+            1
+          </label>
+          <br />
+          <label>
+            <input
+              tabindex="15"
+              type="radio"
+              name="radio-group-2"
+              value="Значение1"
+            />
+            2
+          </label>
+          <br />
+          <label>
+            <input
+              tabindex="16"
+              type="radio"
+              name="radio-group-2"
+              value="Значение1"
+            />
+            3
+          </label>
+          <br />
+          <label>
+            <input
+              tabindex="17"
+              type="radio"
+              name="radio-group-2"
+              value="Значение1"
+            />
+            4
+          </label>
+          <br />
+          <label>
+            <select tabindex="18" id="skills" name="power" multiple="multiple">
+              <option value="Значение1" selected>Бессмертие</option>
+              <option value="Значение2">Прохождение сквозь стены</option>
+              <option value="Значение3">Левитация</option>
+            </select>
+          </label>
+          <br />
+          <label id="some">
+            Биография:
+            <br />
+            <textarea
+              tabindex="19"
+              maxlength="250"
+              name="bio"
+              placeholder="Text here"
+            ></textarea>
+          </label>
+          <br />
+          <label>
+            <input tabindex="20" type="checkbox" name="check-1" checked />
+            с контрактом ознакомлен (а)
+          </label>
+          <br />
+          <input tabindex="21" type="submit" value="Отправить" />
+        </form>
+      </div>
+    </div>
+    <div class="container-fluid">
+      <footer id="footer" class="bg-black text-warning text-center p-3 mt-2">
+        (с) Сезень Егор 2022
+      </footer>
+    </div>
+    <script src="/js/bootstrap.bundle.min.js"></script>
+  </body>
+</html>
