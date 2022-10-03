@@ -17,6 +17,15 @@
     table {
       background-color: bisque;
     }
+    table tr:nth-child(odd) {
+      background-color: orchid;
+      color: darkmagenta;
+    }
+
+    table tr:nth-child(even) {
+      background-color: rebeccapurple;
+      color: lightpink;
+    }
   </style>
   <body>
     <div class="container-fluid">
@@ -256,7 +265,7 @@
     <div class="d-flex flex-column">
       <div class="container order-sm-first order-last">
         <h2 tabindex="6">Таблица:</h2>
-        <table>
+        <table class="table table-stripped table-bordered">
           <tbody>
             <tr>
               <th>Колонка 1</th>
